@@ -1,4 +1,4 @@
-/* Positionnement horizontale des liens */
+/*Alignement Horizontale des  liens */
 
 .menu {
     display: flex;
@@ -7,6 +7,17 @@
     /* Suppression des marges internes */
     background-color: #ccc;
     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center/* Alignements des liens dans le menu */
+    /* Other possibilities 
+    center, 
+    flex-end, 
+    space-around, 
+    space-between, 
+    space-evenly
+
+
+
+    */
 }
 
 .menu li {
